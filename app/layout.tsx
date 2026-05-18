@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import ZaloFloat from "@/components/ui/ZaloFloat";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+
 export const metadata: Metadata = {
   title: "Kiến Tạo Số – Kiến tạo thành công, nâng tầm thương hiệu",
   description: "Kiến Tạo Số cung cấp giải pháp công nghệ toàn diện: Key Windows/Office bản quyền, thiết kế phần mềm nội bộ, landing page, website thương mại điện tử.",
@@ -15,7 +19,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </head>
-      <body style={{ fontFamily: "'Be Vietnam Pro', sans-serif" }}>{children}</body>
+      <body style={{ fontFamily: "'Be Vietnam Pro', sans-serif" }}>
+        <Navbar />
+          <main className="min-h-[100vh]">
+              {children}
+          </main>
+        <Footer />
+        <ZaloFloat />
+      </body>
     </html>
   );
 }

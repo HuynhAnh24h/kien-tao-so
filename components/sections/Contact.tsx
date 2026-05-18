@@ -8,14 +8,14 @@ const methods = [
   {
     icon: MessageCircle,
     label: "Nhắn tin Zalo ngay",
-    value: "0900 000 000",
+    value: "0376355565",
     href: "https://zalo.me/0900000000",
     colorClass: "rgba(0,100,255,0.15)",
   },
   {
     icon: Phone,
     label: "Gọi điện tư vấn",
-    value: "0900 000 000",
+    value: "0376355565",
     href: "tel:0900000000",
     colorClass: "rgba(246,70,104,0.15)",
   },
@@ -115,7 +115,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <label className="block text-xs font-semibold text-white/60 mb-2 tracking-wide">Số điện thoại *</label>
-                  <input className={inputClass} style={inputStyle} placeholder="0900 000 000" type="tel"
+                  <input className={inputClass} style={inputStyle} placeholder="0376355565" type="tel"
                     value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} />
                 </div>
               </div>

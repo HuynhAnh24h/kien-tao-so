@@ -49,9 +49,9 @@ export default function Footer() {
           <div className="font-bold text-sm mb-4" style={{ fontFamily: "'Sora', sans-serif" }}>Liên hệ</div>
           <ul className="flex flex-col gap-3">
             {[
-              { icon: Phone, label: "0900 000 000", href: "tel:0900000000" },
-              { icon: MessageCircle, label: "Zalo: 0900 000 000", href: "https://zalo.me/0900000000" },
-              { icon: Mail, label: "info@kientaosd.com", href: "mailto:info@kientaosd.com" },
+              { icon: Phone, label: "0376355565", href: "tel:0376355565" },
+              { icon: MessageCircle, label: "Zalo: 0376355565", href: "https://zalo.me/0376355565" },
+              { icon: Mail, label: "digitalcreation358@gmail.com", href: "digitalcreation358@gmail.com" },
               { icon: MapPin, label: "TP. Hồ Chí Minh, Việt Nam", href: "#" },
             ].map(({ icon: Icon, label, href }) => (
               <li key={label}>
