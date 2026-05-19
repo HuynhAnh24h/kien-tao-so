@@ -8,7 +8,7 @@ const steps = [
     icon: MessageCircle,
     num: "01",
     title: "Tư vấn miễn phí",
-    desc: "Liên hệ qua Zalo hoặc form để được tư vấn nhu cầu, phân tích giải pháp phù hợp nhất.",
+    desc: "Liên hệ qua Zalo hoặc Form để nhận tư vấn và khảo sát thực trạng doanh nghiệp. Phân tích nhu cầu, đề xuất giải pháp phù hợp nhất để tối ưu chi phí tối đa lợi ích cho hệ thống",
   },
   {
     icon: FileText,
@@ -26,7 +26,7 @@ const steps = [
     icon: Gift,
     num: "04",
     title: "Bàn giao & Hỗ trợ",
-    desc: "Bàn giao sản phẩm đầy đủ tài liệu, hướng dẫn sử dụng, hỗ trợ kỹ thuật dài hạn.",
+    desc: "Bàn giao hệ thống với đầy đủ sản phẩm, tài liệu, giấy tờ pháp lý, hướng dẫn sử dụng và cam kết hỗ trợ dài hạn",
   },
 ];
 
