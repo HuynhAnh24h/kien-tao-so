@@ -2,6 +2,7 @@
 
 import { Rocket, FileText, TrendingUp, Users, Code2 } from "lucide-react";
 
+// Hero
 const stats = [
   { num: "200+", label: "Khách hàng tin dùng" },
   { num: "50+", label: "Dự án hoàn thành" },

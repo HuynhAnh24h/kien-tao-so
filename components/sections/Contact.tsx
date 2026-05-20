@@ -8,15 +8,15 @@ const methods = [
   {
     icon: MessageCircle,
     label: "Nhắn tin Zalo ngay",
-    value: "0900 000 000",
-    href: "https://zalo.me/0900000000",
+    value: "0376355565",
+    href: "https://zalo.me/0376355565",
     colorClass: "rgba(0,100,255,0.15)",
   },
   {
     icon: Phone,
     label: "Gọi điện tư vấn",
-    value: "0900 000 000",
-    href: "tel:0900000000",
+    value: "0376355565",
+    href: "tel:0376355565",
     colorClass: "rgba(246,70,104,0.15)",
   },
   {
@@ -29,7 +29,7 @@ const methods = [
 ];
 
 const serviceOptions = [
-  "Key Windows / Office bản quyền",
+  "Chuẩn hóa bản quyền doanh nghiệp",
   "Phần mềm nội bộ theo yêu cầu",
   "Landing Page",
   "Website doanh nghiệp",

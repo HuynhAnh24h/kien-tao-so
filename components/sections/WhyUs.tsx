@@ -7,7 +7,7 @@ const reasons = [
   {
     icon: CheckCircle,
     title: "Sản phẩm bản quyền chính hãng 100%",
-    desc: "Toàn bộ key phần mềm được cung cấp từ nguồn chính hãng, đảm bảo kích hoạt thành công, không vi phạm bản quyền.",
+    desc: "Tất cả sản phẩm công ty cung cấp cam kết đều là hàng chính hãng, mới 100% đạt yêu cầu chất lượng từ hãng, đầy đủ giấy tờ pháp lý, hóa đơn VAT, COA.",
   },
   {
     icon: Zap,
@@ -25,6 +25,7 @@ const reasons = [
     desc: "Báo giá rõ ràng từ đầu, không phát sinh chi phí ẩn. Tối ưu ngân sách, đảm bảo hiệu quả đầu tư cho doanh nghiệp.",
   },
 ];
+
 
 const miniStats = [
   { num: "200+", label: "Khách hàng" },

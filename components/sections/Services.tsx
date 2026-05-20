@@ -6,9 +6,15 @@ import { Monitor, Settings, Target, ShoppingCart, Globe, LineChart } from "lucid
 const services = [
   {
     icon: Monitor,
-    name: "Key Windows & Office Bản Quyền",
-    desc: "Cung cấp key bản quyền Windows 10/11, Microsoft Office 365 chính hãng, kích hoạt vĩnh viễn, hỗ trợ kỹ thuật 24/7.",
-    price: "Từ 150.000đ",
+    name: "Chuẩn hóa bản quyền doanh nghiệp",
+    desc: "Cung cấp Quy trình Chuẩn hóa bản quyền phần mềm doanh nghiệp: Window, Office, CAD, ... chính hãng, pháp lý đầy đủ đáp ứng yêu cầu của Cơ quan chức năng. Hỗ trợ kỹ thuật 24/7.",
+    price: "Chỉ từ 2,750,000đ",
+  },
+  {
+    icon: Settings,
+    name: "Thi công hệ thống Điện, Mạng, Camera",
+    desc: "Chúng tôi cung cấp dịch vụ thi công hệ thống điện công nghiệp, điện dân dụng, mạng, camera tích hợp cùng hệ thống máy tính mang đến khả năng hoàn thiện thẩm mỹ cũng như khai thác tối đa hiệu năng của doanh nghiệp.",
+    price: "Liên hệ báo giá",
   },
   {
     icon: Settings,

@@ -12,6 +12,7 @@ const testimonials = [
     text: "Phần mềm quản lý kho được làm đúng theo yêu cầu, giao diện dễ dùng, nhân viên nắm bắt nhanh. Đội ngũ hỗ trợ nhiệt tình, chỉnh sửa nhanh khi có yêu cầu." },
 ];
 
+
 function TestimonialCard({ t, delay }: { t: typeof testimonials[0]; delay: number }) {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
